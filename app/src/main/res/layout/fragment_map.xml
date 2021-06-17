@@ -9,7 +9,7 @@
         android:layout_width="0dp"
         android:layout_height="wrap_content"
         android:fontFamily="@font/montserrat"
-        android:text="Hangi Mağzada Var?"
+        android:text="@string/where_label"
         android:textStyle="bold"
         android:textColor="@color/text_black"
         android:textSize="18sp"

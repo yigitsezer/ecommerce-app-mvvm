@@ -8,5 +8,11 @@
     <string name="female">Female</string>
     <string name="male">Male</string>
     <string name="unisex">Unisex</string>
+    <string name="go_back_mainpage_label">Anasayfaya Git</string>
+    <string name="selling_fast_label">- Selling Fast</string>
+    <string name="product_description_label">Ürün Açıklaması</string>
+    <string name="where_label">Hangi Mağazada Var?</string>
+    <string name="add_to_cart_label">Add to Cart</string>
+    <string name="added_to_cart_label">Sepete Eklendi</string>
 
 </resources>
