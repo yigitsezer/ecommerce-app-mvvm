@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/nav_graph"
+    app:startDestination="@id/mainFragment">
+
+    <fragment
+        android:id="@+id/mainFragment"
+        android:name="com.yigitsezer.ecommerceapp.ui.main.MainFragment"
+        android:label="MainFragment" >
+        <action
+            android:id="@+id/action_mainFragment_to_productDetailFragment"
+            app:destination="@id/productDetailFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/mapFragment"
+        android:name="com.yigitsezer.ecommerceapp.ui.map.MapFragment"
+        android:label="MapFragment" />
+    <fragment
+        android:id="@+id/productDetailFragment"
+        android:name="com.yigitsezer.ecommerceapp.ui.product.ProductDetailFragment"
+        android:label="ProductDetailFragment" >
+        <action
+            android:id="@+id/action_productDetailFragment_to_mapFragment"
+            app:destination="@id/mapFragment" >
+        </action>
+        <action
+            android:id="@+id/action_productDetailFragment_to_successDialogFragment"
+            app:destination="@id/successDialogFragment" />
+    </fragment>
+    <dialog
+        android:id="@+id/successDialogFragment"
+        android:name="com.yigitsezer.ecommerceapp.ui.success_dialog.SuccessDialogFragment"
+        android:label="SuccessDialogFragment" />
+</navigation>

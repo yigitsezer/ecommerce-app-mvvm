@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="purple_200">#FFBB86FC</color>
+    <color name="purple_500">#FF6200EE</color>
+    <color name="purple_700">#FF3700B3</color>
+    <color name="teal_200">#FF03DAC5</color>
+    <color name="teal_700">#FF018786</color>
+    <color name="black">#FF000000</color>
+    <color name="white">#FFFFFFFF</color>
+
+
+
+    <color name="text_black">#1A202C</color>
+    <color name="text_grey">#BDBDBD</color>
+
+    <color name="box_grey">#F6F7FB</color>
+
+    <color name="box_tint_grey">#E3E3E1</color>
+    <color name="box_tint_green">#00CC96</color>
+
+    <color name="button_grey">#BDBDBD</color>
+    <color name="button_green">#00CC96</color>
+
+    <color name="sc_background">#1AFFC123</color>
+    <color name="sc_text">#FFC123</color>
+    <color name="treatments_background">#1AFF66A0</color>
+    <color name="treatments_text">#FF66A0</color>
+    <color name="ec_background">#1A2975FF</color>
+    <color name="ec_text">#2975FF</color>
+    <color name="moist_background">#1A00CC96</color>
+    <color name="moist_text">#00CC96</color>
+
+    <color name="female_bg">#1AFF66A0</color>
+    <color name="female_text">#FF66A0</color>
+    <color name="male_bg">#1A2975FF</color>
+    <color name="male_text">#2975FF</color>
+    <color name="unisex_bg">#1ABDBDBD</color>
+    <color name="unisex_text">#BDBDBD</color>
+</resources>

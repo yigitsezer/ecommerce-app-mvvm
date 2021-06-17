@@ -1,0 +1,12 @@
+<resources>
+    <string name="app_name">Ecommerce App</string>
+    <string name="discounted_price"><strike>$25</strike></string>
+    <string name="sun_care">Sun Care</string>
+    <string name="treatments">Treatments</string>
+    <string name="eye_care">Eye Care</string>
+    <string name="moisturizers">Moisturizers</string>
+    <string name="female">Female</string>
+    <string name="male">Male</string>
+    <string name="unisex">Unisex</string>
+
+</resources>
